@@ -1,0 +1,19 @@
+
+body{
+  background-image: url("img/index/indexBackground.png");
+}
+
+
+div.ramka {
+  width: 750px;
+  height: 275px;
+  background-image: url("img/index/Box.png");
+  text-align: center;
+  margin-top: 18%;
+  margin-left: 29%;
+}
+
+div.menu{
+  margin-top: 10px;
+  text-align: center;
+}

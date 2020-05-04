@@ -1,15 +1,42 @@
-
 body{
-  background-size: 100%;
-  background-attachment: fixed;
+  margin: 0;
+
 }
 
-div.container{
-  width: 1680px;
-  margin: auto;
-  padding: 0 20px;
+.container{
+  width: auto;
+
 }
 
+.header{
+  background-image: url("../img/header/headerBg.png");
+  height: 83px;
+  width: auto;
+  text-align: center;
+}
+.topBorder{
+  padding-top: 72px;
+  width: auto;
+}
+#menu{
+  padding-top: 15px;
+  padding-left: 700px;
+
+}
+#topBorder{
+  background-image: url("../img/header/topBorder.png");
+  width: auto;
+  height: 4px;
+  padding-top: 2px;
+}
+nav ul li{
+  float: left;
+  padding-left: 20px;
+}
+nav ul{
+  list-style: none;
+  overflow: auto;
+}
 
 article, aside, footer, header, header, section{
   display: block;
@@ -18,3 +45,7 @@ article, footer, header, aside{
   background: rgba(255, 255, 255, 0.6);
 
 }
+html{
+  display: block;
+}
+

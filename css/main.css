@@ -13,18 +13,19 @@ body {
   background-image: url("../img/header/headerBg.png");
   height: 83px;
   width: auto;
+  margin-right: 0;
 }
 
 .topBorder {
-  padding-top: 72px;
+  padding-top: 75px;
   width: auto;
 }
 
-#logo {
-  width: 20%;
+.logo {
+  width: 30%;
   height: 60px;
   padding-left: 20px;
-  padding-top: 20px;
+  padding-top: 15px;
   font-family: 'Alex Brush', cursive;
   color: rgb(232, 232, 232);
   font-size: 44px;
@@ -32,17 +33,56 @@ body {
 }
 
 #menu {
-  width: 80%;
+  width: 65%;
+  height: auto;
   padding-top: 15px;
-  padding-left: 5%;
+  float: left;
 
 
 }
 
 
 #home {
-  text-decoration: none;
+  float: left;
+  width: 170px;
+  height: 32px;
 
+}
+
+#oMnie{
+  float: left;
+  width: 95px;
+  height: 30px;
+}
+
+#galeria{
+  float: left;
+  width: 90px;
+  height: 30px;
+}
+
+#kontakt{
+  float: left;
+  width: 100px;
+  height: 30px;
+}
+
+#dzialanoscZawodowa{
+  float: left;
+  width: 250px;
+  height: 30px;
+}
+
+#hobby{
+  float: left;
+  width: 80px;
+  height: 30px;
+}
+
+#portfolio{
+  float: left;
+  width: 105px;
+  height: 30px;
 }
 
 #topBorder {
@@ -51,10 +91,26 @@ body {
   height: 4px;
   padding-top: 2px;
 }
+#bottomBorder{
+  background-image: url("../img/header/topBorder.png");
+  width: auto;
+  padding-bottom: 10px;
+}
+.footer{
+  background-image: url("../img/footer/footerBg.png");
+  width: auto;
+  height: 80px;
+
+}
+#tresc{
+  height: 900px;
+}
+
+
 
 nav ul li a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 22px;
   font-family: 'Montserrat', sans-serif;
   color: rgb(232, 232, 232);
   font-weight: bolder;
@@ -63,15 +119,16 @@ nav ul li a {
 }
 
 nav ul li {
+  font-size: 22px;
+  padding-top: 4px;
   float: left;
-  padding-left: 20px;
+  padding-left: 10px;
 
 }
 
 nav ul {
   list-style: none;
   overflow: auto;
-  text-decoration: none;
 }
 
 article, aside, footer, header, header, section {

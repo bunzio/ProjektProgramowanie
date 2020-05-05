@@ -1,65 +1,84 @@
-body{
+body {
   margin: 0;
 
 }
 
-.container{
+.container {
   width: auto;
+  display: block;
 
 }
 
-.header{
+.header {
   background-image: url("../img/header/headerBg.png");
   height: 83px;
   width: auto;
-  text-align: center;
 }
-.topBorder{
+
+.topBorder {
   padding-top: 72px;
   width: auto;
 }
-#menu{
+
+#logo {
+  width: 20%;
+  height: 60px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-family: 'Alex Brush', cursive;
+  color: rgb(232, 232, 232);
+  font-size: 44px;
+  float: left;
+}
+
+#menu {
+  width: 80%;
   padding-top: 15px;
-  padding-left: 700px;
-
-}
-#home{
-    font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(232, 232, 232);
-    font-weight: bold;
-    line-height: 1.75;
-    text-align: center;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
-    position: absolute;
-    left: 420.937px;
-    top: 31px;
-    z-index: 258;
+  padding-left: 5%;
 
 
 }
-#topBorder{
+
+
+#home {
+  text-decoration: none;
+
+}
+
+#topBorder {
   background-image: url("../img/header/topBorder.png");
   width: auto;
   height: 4px;
   padding-top: 2px;
 }
-nav ul li{
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(232, 232, 232);
+  font-weight: bolder;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+  float: left;
+}
+
+nav ul li {
   float: left;
   padding-left: 20px;
+
 }
-nav ul{
+
+nav ul {
   list-style: none;
   overflow: auto;
+  text-decoration: none;
 }
 
-article, aside, footer, header, header, section{
+article, aside, footer, header, header, section {
   display: block;
 }
-article, footer, header, aside{
+
+article, footer, header, aside {
   background: rgba(255, 255, 255, 0.6);
 
-}
-html{
-  display: block;
 }

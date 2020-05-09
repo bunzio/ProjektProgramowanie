@@ -55,7 +55,7 @@ body {
   height: 30px;
 }
 
-#galeria {
+#menuGaleria {
   float: left;
   width: 100px;
   height: 30px;
@@ -99,6 +99,7 @@ body {
 }
 
 #tresc {
+  padding-top: 30px;
   height: 900px;
 }
 

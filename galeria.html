@@ -10,8 +10,14 @@
 
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/galeria.css">
+
+
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+
+
+  <script src="js/galeria_zdj.js"></script>
+
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -35,7 +41,7 @@
               <li><a href="oMnie.html">O mnie </a></li>
             </div>
             <li>|</li>
-            <div id="galeria">
+            <div id="menuGaleria">
               <li><a href="galeria.html">Galeria </a></li>
             </div>
             <li>|</li>
@@ -63,7 +69,17 @@
 
   </header>
 
-  <div id="tresc"></div>
+  <div id="tresc">
+    <div id="galeria_zdj">
+      <script>
+        var galeria = new Galeria('galeria', new Array(
+          new Array('miniatura', 'zdjęcie', 'Tytuł', 'Opis'),
+          new Array('miniatura', 'zdjęcie', 'Tytuł', 'Opis'),
+          new Array('miniatura', 'zdjęcie', 'Tytuł', 'Opis')
+        ));
+      </script>
+    </div>
+  </div>
 
 
   <footer>

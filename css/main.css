@@ -93,16 +93,18 @@ body {
 }
 
 #bottomBorder {
+  float: bottom;
   background-image: url("../img/header/topBorder.png");
   width: auto;
   padding-bottom: 10px;
 }
 
 #tresc {
-  height: 900px;
+  height: 800px;
 }
 
 .footer {
+  float: bottom;
   background-image: url("../img/footer/footerBg.png");
   width: auto;
   height: 80px;

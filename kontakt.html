@@ -63,7 +63,35 @@
 
   </header>
 
-  <div id="tresc"></div>
+  <div id="tresc">
+    <div id="formularz"></div>
+    <section>
+      <form action="#" method="post" autocomplete="off">
+        <div class="row">
+          <label for="name">Imie i nazwisko: </label>
+          <input id="name" type="text" required autofocus="true">
+        </div>
+        <div class="row">
+          <label for="email">Email do kontaktu: </label>
+          <input id="email" type="email" required>
+        </div>
+        <div class="row">
+          <label for="temat">Temat: </label>
+          <input id="temat" type="text" required>
+        </div>
+        <div class="row">
+          <label for="wiad">Treść:</label>
+          <textarea id="wiad" rows="10" required></textarea>
+          <div class="row">
+            <div id="buttonWyslij">
+            <input type="submit" name="wyslij" value="Wyślij">
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+    </div>
+  </div>
 
 
   <footer>

@@ -16,10 +16,6 @@ body {
   margin-right: 0;
 }
 
-.topBorder {
-  padding-top: 75px;
-  width: auto;
-}
 
 .logo {
   width: 30%;
@@ -88,7 +84,7 @@ body {
 #topBorder {
   background-image: url("../img/header/topBorder.png");
   width: auto;
-  height: 4px;
+  height: 8px;
   padding-top: 2px;
 }
 
@@ -101,6 +97,7 @@ body {
 
 #tresc {
   height: 750px;
+  background-color: #b4b1b1;
 }
 
 .footer {

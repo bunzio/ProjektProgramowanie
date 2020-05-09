@@ -4,7 +4,7 @@
  */
 
 function Galeria(id, zdjecia, css, ochrona, zaladuj) {
-  this.kolumny = 2;
+  this.kolumny = 5;
   this.naStronie = 10;
 
 

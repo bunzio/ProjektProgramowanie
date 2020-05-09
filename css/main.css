@@ -100,11 +100,10 @@ body {
 }
 
 #tresc {
-  height: 800px;
+  height: 750px;
 }
 
 .footer {
-  float: bottom;
   background-image: url("../img/footer/footerBg.png");
   width: auto;
   height: 80px;

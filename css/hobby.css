@@ -8,15 +8,15 @@
 #tresc{
   text-align: left;
   font-size: 20px;
-  margin-top: 200px;
+  margin-top: 150px;
   margin-left: 30px;
   width: 1500px;
 }
 
 #hobbyRobot {
-  width: 200px;
-  background-image: url("../img/metsaLogo.png");
-  height: 200px;
+  width: 302px;
+  background-image: url("../img/hobbyRobot.png");
+  height: 300px;
   margin-left: 30px;
   margin-bottom: 30px;
   margin-right: 30px;

@@ -18,7 +18,7 @@ body {
 
 
 .logo {
-  width: 30%;
+  width: 15%;
   height: 60px;
   padding-left: 20px;
   padding-top: 15px;
@@ -32,6 +32,7 @@ body {
   width: 65%;
   height: auto;
   padding-top: 15px;
+  margin-left: 50px;
   float: left;
 
 
@@ -81,6 +82,12 @@ body {
   height: 30px;
 }
 
+#zegar{
+  font-size: 40px;
+  color: rgb(232, 232, 232);
+  padding-top: 20px;
+}
+
 #topBorder {
   background-image: url("../img/header/topBorder.png");
   width: auto;
@@ -117,7 +124,8 @@ body {
 #prawaZastrzezone {
   float: left;
   padding-top: 25px;
-  padding-left: 170px
+  padding-left: 170px;
+  margin-left: 300px;
 
 }
 

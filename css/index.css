@@ -1,25 +1,27 @@
 #home {
   border-radius: 15px;
-  box-shadow: 0px 1px 0px 0px rgb(255, 255, 255),inset 0px 1px 8px 0px rgb(0, 0, 0);
+  box-shadow: 0px 1px 0px 0px rgb(255, 255, 255), inset 0px 1px 8px 0px rgb(0, 0, 0);
 
 }
 
-#tresc{
+#tresc {
   margin-top: 100px;
-  margin-left: 30px;
-  text-align: center;
+  margin-left: 500px;
+  text-align: justify;
   display: block;
 }
 
-article h1{
+article h1 {
   font-family: 'Alex Brush', cursive;
   font-size: 40px;
+
 }
 
-#zdjJa{
+#zdjJa {
   width: 300px;
   background-image: url("../img/ja.jpg");
   height: 385px;
-  margin-left: 40%;
+  margin-left: 25%;
+
 
 }
